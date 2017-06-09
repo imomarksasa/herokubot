@@ -1,0 +1,21 @@
+{
+  "name": "coolbot",
+  "version": "1.0.0",
+  "description": "a COOL bot for the spastic discord server",
+  "main": "bot.js",
+  "engines" : {
+  	"node" : "6.9.1"
+  },
+  "dependencies": {
+    "discordie": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "coolBot"
+  ],
+  "author": "didixo",
+  "license": "ISC"
+}
