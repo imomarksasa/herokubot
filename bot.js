@@ -1,17 +1,17 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
 
 
 
 
 
 
-
-
-if (!Discord) {
-    var Discord = require(`discord.js`);
-};
-if (!client) {
-    var client = new Discord.Client();
-}
 
 if (!fs) {
     var fs = require(`fs`);
