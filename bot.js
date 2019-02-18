@@ -13,25 +13,25 @@ client.on('ready',  () => {
   console.log(`Logged in as  * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   console.log('is online')
-client.user.setStatus("dnd");
+client.user.setStatus("idle");
 });
 
 
 
 client.on('message', async message => {
-    if(message.content.startsWith(prefix + "bcall")) {
-      let i = client.users.size;
-      if(message.author.id !== '321476121956974595') return message.channel.send(':negative_squared_cross_mark: » هذا الأمر مخصص لصاحب البوت فقط');
-      var args = message.content.split(' ').slice(1).join(' ');
-      if(!args) return message.channel.send(':negative_squared_cross_mark: » يجب عليك كتابة الرسالة')
-      setTimeout(() => {
-        message.channel.send(تم الارسال لـ ${i} شخص)
-      }, client.users.size * 500);
-      client.users.forEach(s => {
-        s.send(args).catch(e => i--);
-      });
-    }
-    });
+if(message.content.startsWith(prefix + "bcall")) {
+  let i = client.users.size;
+  if(message.author.id !== '321476121956974595') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
+  var args = message.content.split(' ').slice(1).join(' ');
+  if(!args) return message.channel.send('❎ » يجب عليك كتابة الرسالة')
+  setTimeout(() => {
+    message.channel.send(`تم الارسال لـ ${i} شخص`)
+  }, client.users.size * 500);
+  client.users.forEach(s => {
+    s.send(args).catch(e => i--);
+  });
+}
+});
 
 
 const devs = ["321476121956974595"];
