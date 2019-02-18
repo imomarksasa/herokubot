@@ -23,7 +23,6 @@ client.on('message', async message => {
       let i = client.users.size;
       if(message.author.id !== '411255565499629579') return message.channel.send(':negative_squared_cross_mark: » هذا الأمر مخصص لصاحب البوت فقط');
       var args = message.content.split(' ').slice(1).join(' ');
-      .setThumbnail('https://a.top4top.net/p_1144kzsq81.png')
       if(!args) return message.channel.send(':negative_squared_cross_mark: » يجب عليك كتابة الرسالة')
       setTimeout(() => {
         message.channel.send(تم الارسال لـ ${i} شخص)
