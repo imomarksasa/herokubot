@@ -1,5 +1,5 @@
 
-const client = new Discord.Client();
+
 const prefix = '+';
 
 
