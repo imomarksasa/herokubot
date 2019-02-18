@@ -152,7 +152,7 @@ if(message.channel.type === 'dm') return;
            .addField('🔰Server🔰', message.guild.name)
            .addField('🚩Sender🚩', message.author.username)
            .addField('📜Message📜', `${msge}`)
-           .setThumbnail('https://a.top4top.net/p_1144atw5w1.jpg')
+           .setThumbnail('https://a.top4top.net/p_1144kzsq81.png')
            .setFooter(client.user.username, client.user.avatarURL);
            m.send({ embed: bc })
            m.send(`${m}`)
@@ -168,7 +168,7 @@ if(message.channel.type === 'dm') return;
            .addField('🔰Server🔰', message.guild.name)
            .addField('🚩Sender🚩', message.author.username)
            .addField('📜Message📜', `${msge}`)
-           .setThumbnail('https://a.top4top.net/p_1144atw5w1.jpg')
+           .setThumbnail('https://a.top4top.net/p_1144kzsq81.png')
            .setFooter(client.user.username, client.user.avatarURL);
            m.send({ embed: bc })
            
@@ -253,7 +253,7 @@ message.guild.members.filter(m => m.presence.status === 'online').forEach(m => {
          .addField('🔰Server🔰', message.guild.name)
          .addField('🚩Sender🚩', message.author.username)
          .addField('📜Message📜', `${msge}`)
-         .setThumbnail('https://a.top4top.net/p_1144atw5w1.jpg')
+         .setThumbnail('https://a.top4top.net/p_1144kzsq81.png')
          .setFooter(client.user.username, client.user.avatarURL);
          m.send({ embed: bc })
          m.send(`${m}`)
@@ -269,7 +269,7 @@ message.guild.members.filter(m => m.presence.status === 'online').forEach(m => {
          .addField('🔰Server🔰', message.guild.name)
          .addField('🚩Sender🚩', message.author.username)
          .addField('📜Message📜', `${msge}`)
-         .setThumbnail('https://a.top4top.net/p_1144atw5w1.jpg')
+         .setThumbnail('https://a.top4top.net/p_1144kzsq81.png')
          .setFooter(client.user.username, client.user.avatarURL);
          m.send({ embed: bc })
          
@@ -433,7 +433,7 @@ message.guild.members.filter(m => m.presence.status === 'online').forEach(m => {
          .addField('🔰Server🔰', message.guild.name)
          .addField('🚩Sender🚩', message.author.username)
          .addField('📜Message📜', `${msge}`)
-         .setThumbnail('https://a.top4top.net/p_1144atw5w1.jpg')
+         .setThumbnail('https://a.top4top.net/p_1144kzsq81.png')
          .setFooter(client.user.username, client.user.avatarURL);
          m.send({ embed: bc })
  m.send(`${m}`)      
@@ -449,7 +449,7 @@ message.guild.members.filter(m => m.presence.status === 'online').forEach(m => {
          .addField('🔰Server🔰', message.guild.name)
          .addField('🚩Sender🚩', message.author.username)
          .addField('📜Message📜', `${msge}`)
-         .setThumbnail('https://a.top4top.net/p_1144atw5w1.jpg')
+         .setThumbnail('https://a.top4top.net/p_1144kzsq81.png')
          .setFooter(client.user.username, client.user.avatarURL);
          m.send({ embed: bc })
          
