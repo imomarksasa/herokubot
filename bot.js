@@ -21,7 +21,7 @@ client.user.setStatus("dnd");
 client.on('message', async message => {
     if(message.content.startsWith(prefix + "bcall")) {
       let i = client.users.size;
-      if(message.author.id !== '411255565499629579') return message.channel.send(':negative_squared_cross_mark: » هذا الأمر مخصص لصاحب البوت فقط');
+      if(message.author.id !== '321476121956974595') return message.channel.send(':negative_squared_cross_mark: » هذا الأمر مخصص لصاحب البوت فقط');
       var args = message.content.split(' ').slice(1).join(' ');
       if(!args) return message.channel.send(':negative_squared_cross_mark: » يجب عليك كتابة الرسالة')
       setTimeout(() => {
