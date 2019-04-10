@@ -3992,7 +3992,7 @@ if (message.content.startsWith('setavatar')) {
 client.on('message', async message => {
 if(message.content.startsWith(prefix + "bcall")) {
   let i = client.users.size;
-  if(message.author.id !== '321476121956974595') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
+  if(message.author.id !== '526692589399965696') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
   var args = message.content.split(' ').slice(1).join(' ');
   if(!args) return message.channel.send('❎ » يجب عليك كتابة الرسالة')
   setTimeout(() => {
